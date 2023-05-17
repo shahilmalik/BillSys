@@ -127,6 +127,6 @@ EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = "shahilabdul001@gmail.com"
-EMAIL_HOST_PASSWORD = "Akil@2006Akil@2006"
+EMAIL_HOST_PASSWORD = "######################"
 
 EMAIL_DEBUG = True
