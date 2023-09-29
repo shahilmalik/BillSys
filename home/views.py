@@ -35,12 +35,12 @@ def reset_password(request):
                 'token': default_token_generator.make_token(user),
             })
             message = Mail(
-                from_email='shahilabdul001@gmail.com',
+                from_email='Your_mail',
                 to_emails=email,
                 subject=subject,
                 html_content=message)
             try:
-                sg = SendGridAPIClient('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')
+                sg = SendGridAPIClient('Your_Api')
                 response = sg.send(message)
                 print(response.status_code)
                 print(response.body)
